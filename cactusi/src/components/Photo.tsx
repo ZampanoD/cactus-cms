@@ -21,8 +21,7 @@ export default function Photo() {
                   'MaybeYouRe',
                   2000,
                   'Mashinka34',
-                  2000
-                  
+                  2000,
                  
                 ]}
                 wrapper="span"
@@ -32,10 +31,10 @@ export default function Photo() {
               />
             </h2>
             <div className='flex justify-between  pt-6  max-w-[150px] w-full pl-3'>
-      <a href="https://github.com/ZampanoD/cactusi2" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/ZampanoD/cactus-cms" target="_blank" rel="noopener noreferrer">
           <FaGithub className='cursor-pointer text-white' size={30}/>
       </a>
-      <a href="https://yourphotolink.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://postimg.cc/LhBgjbS5" target="_blank" rel="noopener noreferrer">
           <MdPhotoCamera className='cursor-pointer text-white pl-1' size={30}/>
       </a>
       <ModeToggle/>
