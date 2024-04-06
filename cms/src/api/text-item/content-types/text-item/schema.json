@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "text_items",
+  "info": {
+    "singularName": "text-item",
+    "pluralName": "text-items",
+    "displayName": "TextItems"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    }
+  }
+}
