@@ -34,7 +34,7 @@ export default function Photo() {
       <a href="https://github.com/ZampanoD/cactus-cms" target="_blank" rel="noopener noreferrer">
           <FaGithub className='cursor-pointer text-white' size={30}/>
       </a>
-      <a href="https://postimg.cc/LhBgjbS5" target="_blank" rel="noopener noreferrer">
+      <a href="https://postimg.cc/sGyk8Lmg" target="_blank" rel="noopener noreferrer">
           <MdPhotoCamera className='cursor-pointer text-white pl-1' size={30}/>
       </a>
       <ModeToggle/>
