@@ -1,0 +1,17 @@
+services:
+  cms: 
+    build: ./cms
+    ports:
+      -'1337:1337'
+    volumes:
+      - ./cms/config:/opt/app/config
+      - ./cms/src:/opt/app/src
+      - ./cms/.tmp:/opt/app/.tmp
+      - ./cms/package.json:/opt/package.json
+      - ./cms/package-lock.json:/opt/package-lock.json
+      - ./cms/.env:/opt/app/.env
+      - ./cms/public/uploads:/opt/app/public/uploads
+  cactusi:
+    build: ./cactusi
+    ports:
+      -'5173:5173'
