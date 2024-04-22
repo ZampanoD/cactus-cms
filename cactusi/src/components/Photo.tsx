@@ -10,7 +10,7 @@ export default function Photo() {
         <img src='/fon2.jpg' className='absolute h-full w-full object-cover object-center scale-x-[-1]' />
         <div className='absolute top-0 left-0 h-full w-full flex items-center justify-center '>
           <div className='max-w-[700px] m-auto text-center'>
-            <h1 className='sm:text-5xl text-4xl font-bold text-white'>CactusWorld</h1>
+            <h1 className='sm:text-5xl text-4xl font-bold text-white'>CactuseWorld</h1>
             <h2 className='flex sm:text-3xl text-2xl pt-4 text-white'>
               <TypeAnimation
                 sequence={[
